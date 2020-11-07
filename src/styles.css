@@ -3,6 +3,10 @@
     margin-top: 20px;
 }
 
+body{
+  padding-bottom: 30px;
+}
+
 /** Animaciones **/
 
 .animated {
