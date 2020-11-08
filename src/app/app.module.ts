@@ -27,7 +27,7 @@ import {HeroesService} from './services/heroes.service'
     ROUTING
   ],
   providers: [
-    HeroesComponent
+    HeroesService
   ],
   bootstrap: [AppComponent]
 })
