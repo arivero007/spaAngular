@@ -11,4 +11,4 @@ const ROUTES: Routes = [
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
-export const ROUTING = RouterModule.forRoot(ROUTES)
+export const ROUTING = RouterModule.forRoot(ROUTES, { relativeLinkResolution: 'legacy' })
