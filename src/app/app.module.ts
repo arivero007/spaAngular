@@ -12,8 +12,10 @@ import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 
 //Servicios
-import {HeroesService} from './services/heroes.service';
-import { HeroeComponent } from './components/heroe/heroe.component'
+import { HeroesService } from './services/heroes.service';
+import { HeroeComponent } from './components/heroe/heroe.component';
+import { HeroSearchComponent } from './components/hero-search/hero-search.component';
+import { HeroeCardComponent } from './components/heroe-card/heroe-card.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { HeroeComponent } from './components/heroe/heroe.component'
     HomeComponent,
     AboutComponent,
     HeroesComponent,
-    HeroeComponent
+    HeroeComponent,
+    HeroSearchComponent,
+    HeroeCardComponent
   ],
   imports: [
     BrowserModule,

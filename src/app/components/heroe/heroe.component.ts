@@ -23,4 +23,12 @@ export class HeroeComponent implements OnInit {
     
   }
 
+  getWorld(): string{
+    if (this.heroe.casa == "DC"){
+      return "assets/img/dc.png"
+    }else{
+      return "assets/img/marvel.png"
+    }
+  }
+
 }
